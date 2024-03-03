@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/static/logo.png" alt="Logo">
+        </div>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search movies...">
+            <button id="searchButton">Search</button>
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+    </header>
+    <div class="grid" id="movieGrid"></div>
+    <footer>
+        Copyright © 2023 Rohit Negi. All Rights Reserved.
+    </footer>
+
+    <script src="/static/script.js"></script>
+    
+</body>
+</html>
